@@ -1,0 +1,10 @@
+.Menu li{
+  text-transform: uppercase;
+  padding: 3px 10px;
+  font-weight: 600;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent;
+}
+.Menu li:hover{
+  border-color: #333;
+}

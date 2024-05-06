@@ -2,7 +2,7 @@ import './Button.css';
 
 function Button(props) {
   return (
-    <a href="" className="btn">{props.children}</a>
+    <a href="" className="Btn">{props.children}</a>
   );
 }
 
