@@ -75,7 +75,10 @@ body{
 	display: none;
 }
 section{
-	padding: 100px 0;
+	padding: 0 0 80px;
+}
+main{
+	padding: 20px 0;
 }
 .color{
 	color: #BE963F;
@@ -99,4 +102,8 @@ section{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+}
+.img_wrap{
+	overflow: hidden;
+	border-radius: 5px;
 }
