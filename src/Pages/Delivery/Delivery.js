@@ -7,7 +7,7 @@ function Delivery() {
     <section className="Delivery">
       <Title>Delivery</Title>
       <div className="Delivery_video">
-      <video width="100%" height="auto"  autoplay>
+      <video width="100%" height="auto" controls autoPlay muted>
         <source src={video} type="video/mp4" />
       </video>
       </div>
