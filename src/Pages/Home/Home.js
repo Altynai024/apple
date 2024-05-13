@@ -3,8 +3,13 @@ import HomeSec from "../../Components/HomeSec/HomeSec";
 import HomeTxt from "../../Components/HomeTxt/HomeTxt";
 import "./Home.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay'
 import { Link } from "react-router-dom";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
 function Home() {
   return (
@@ -43,6 +48,11 @@ function Home() {
         <Swiper 
           spaceBetween={10} 
           slidesPerView={2}
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          navigation
+          autoplay={1000}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
         >
           <SwiperSlide>
             <Link className="Home_slide" to="#">
@@ -91,7 +101,6 @@ function Home() {
               </p>
             </Link>
           </SwiperSlide>
-          ...
         </Swiper>
       </div>
     </>
