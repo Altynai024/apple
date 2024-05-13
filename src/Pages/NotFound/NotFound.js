@@ -3,13 +3,13 @@ import './NotFound.css';
 
 function NotFound() {
   return (
-    <>
+    <div className="container">
       <div className='NotFound'>404</div>
       <p className="NotFound_txt">
         Oops, go to 
         <Link to="/">Home</Link>
       </p>
-    </>
+    </div>
   );
 }
 

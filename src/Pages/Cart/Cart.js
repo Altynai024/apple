@@ -2,7 +2,11 @@ import './Cart.css';
 
 function Cart() {
   return (
-    <>Cart</>
+    <>
+    <div className="container">
+      Cart
+    </div>
+    </>
   );
 }
 

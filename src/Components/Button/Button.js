@@ -3,7 +3,7 @@ import './Button.css';
 
 function Button(props) {
   return (
-    <Link to="" className="Btn">{props.children}</Link>
+    <Link to={props.path} className="Btn">{props.children}</Link>
   );
 }
 
