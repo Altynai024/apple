@@ -25,3 +25,26 @@
 .Home_sec__iphone15-2{
   background-image: url(../../img/home-iphone15-2.jpg);
 }
+.Home_slide{
+  display: block;
+  position: relative;
+}
+.Home_slide::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.2);
+}
+.Home_slide-txt{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 1;
+}
